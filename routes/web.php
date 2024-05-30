@@ -1,6 +1,10 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TemplateController;
+use App\Http\Controllers\DoctorController;
+use App\Http\Controllers\SalesController;
+use App\Http\Controllers\StockController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -8,7 +12,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('layout.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
@@ -17,4 +21,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('/home', [TemplateController::class, 'index'])->name('home');
+
+//
+Route::get('/doctors', [DoctorController::class, 'index'])->name('doctors');
+
+Route::get('/sales', [SalesController::class, 'index'])->name('sales');
+
+Route::get('/products', [StockController::class, 'index'])->name('products');
 require __DIR__.'/auth.php';
