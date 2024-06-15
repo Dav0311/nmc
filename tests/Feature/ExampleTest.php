@@ -16,4 +16,17 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function test_honeypot_block()
+    {
+        $response = $this->post('/honeypost', [
+            
+            'email' => 'testuser@example.com',
+            'password' => 'password',   
+            'my_name' => 'spamtext', 
+        ]);
+        
+        $response->assertStatus(200);
+       
+    }
 }
