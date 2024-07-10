@@ -22,7 +22,7 @@ class StockController extends Controller
     {
 
         $validated = $request->validate([
-            'name'=>'required|unique:stock|max:255',
+            'product_name'=>'required|unique:stock|max:255',
             'price'=>'required|nunmber',
             'category'=>'required'
         ]);

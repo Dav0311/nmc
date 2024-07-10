@@ -49,6 +49,12 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+    .create-form{
+      display:none;
+    }
+  </style>
 </head>
 
 <body>
@@ -59,7 +65,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link " href="{{ url('/sales/home') }}">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
@@ -67,7 +73,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Transactions</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-menu-button-wide"></i><span>pharmacy</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
@@ -82,7 +88,7 @@
           </li>
           <li>
             <a href="components-badges.html">
-              <i class="bi bi-circle"></i><span>Badges</span>
+              <i class="bi bi-circle"></i><span>Stock</span>
             </a>
           </li>
          
@@ -100,8 +106,8 @@
             </a>
           </li>
           <li>
-            <a href="forms-layouts.html">
-              <i class="bi bi-circle"></i><span>Roles</span>
+            <a href="{{ url('/form_builder') }}">
+              <i class="bi bi-circle"></i><span>Form Builder</span>
             </a>
           </li>
           <li>
@@ -134,52 +140,6 @@
           </li>
         </ul>
       </li><!-- End Tables Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="charts-chartjs.html">
-              <i class="bi bi-circle"></i><span>Chart.js</span>
-            </a>
-          </li>
-          <li>
-            <a href="charts-apexcharts.html">
-              <i class="bi bi-circle"></i><span>ApexCharts</span>
-            </a>
-          </li>
-          <li>
-            <a href="charts-echarts.html">
-              <i class="bi bi-circle"></i><span>ECharts</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Charts Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="icons-bootstrap.html">
-              <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
-            </a>
-          </li>
-          <li>
-            <a href="icons-remix.html">
-              <i class="bi bi-circle"></i><span>Remix Icons</span>
-            </a>
-          </li>
-          <li>
-            <a href="icons-boxicons.html">
-              <i class="bi bi-circle"></i><span>Boxicons</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Icons Nav -->
 
       <li class="nav-heading">Pages</li>
 
@@ -245,7 +205,7 @@
     <section class="section dashboard">
       <div class="row">
         
-@yield('content')
+      @yield('content')
                     
       </div>
     </section>
@@ -255,7 +215,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>NMC</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
@@ -295,6 +255,45 @@
 </script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  
+<script>
+        $(document).ready(function () {
+            $('#ajaxform').click(function () {
+                $('#createForm').show();
+                //console.log("testing...");
+            });     
+        });
+   
+        document.addEventListener("DOMContentLoaded", function() {
+            var successAlert = document.getElementById('trigger');
+            if (successAlert) {
+                // Refresh the page
+                setTimeout(function() {
+                    window.location.reload();
+                }, 1000);
+            }
+
+        });
+       
+        $(document).ready(function () {
+            $('.cp_link').on('click', function () {
+                var value = $(this).attr('data-link');
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val(value).select();
+                document.execCommand("copy");
+                $temp.remove();
+                toast("Link copied to Clipboard", "bg-success");
+            });
+        });
+
+        function toast(message, className) {
+            alert(message); 
+        }
+
+        
+</script>
 
 </body>
 
