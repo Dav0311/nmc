@@ -77,8 +77,8 @@
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="{{ url('/sales') }}">
-              <i class="bi bi-circle"></i><span>Sales</span>
+            <a href="{{ url('/lab/index') }}">
+              <i class="bi bi-circle"></i><span>Laboratory</span>
             </a>
           </li>
           <li>
@@ -101,8 +101,8 @@
         </a>
         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="forms-elements.html">
-              <i class="{{ url('/doctors') }}"></i><span>List</span>
+            <a href="{{ url('/doctors') }}">
+              <i class="bi bi-circle"></i><span>List</span>
             </a>
           </li>
           <li>
@@ -294,6 +294,59 @@
 
         
 </script>
+
+<!-- sales business logic  -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get references to the input fields, output elements, and button
+    const priceInput = document.querySelector('input[name="price"]');
+    const quantityInput = document.querySelector('input[name="quantity"]');
+    const amountPaidElement = document.querySelector('input[name="amount_paid"]');
+    const totalCostElement = document.getElementById('totalCost');
+    const balanceElement = document.getElementById('balance');
+    const addButton = document.getElementById('addButton'); // Assuming the button has an ID of 'addButton'
+
+    // Function to calculate total cost and balance
+    function calculateTotals() {
+        // if (!priceInput || !quantityInput || !amountPaidElement ) {
+        //     console.error("One or more elements are missing from the DOM.");
+        //     return;
+        // }
+
+        // Get the values from the inputs
+        const price = parseFloat(priceInput.value) || 0;
+        const quantity = parseFloat(quantityInput.value) || 0;
+        const amountPaid = parseFloat(amountPaidElement.value.replace(/,/g, '')) || 0;
+
+        // Calculate total cost
+        const totalCost = price * quantity;
+        totalCostElement.textContent = totalCost.toLocaleString(undefined, { minimumFractionDigits: 2 });
+
+        // Calculate balance
+        const balance = amountPaid - totalCost;
+        balanceElement.textContent = balance.toLocaleString(undefined, { minimumFractionDigits: 2 });
+
+        console.log(totalCost);
+        // Update the color of the balance based on its value
+        if (balance < 0) {
+            balanceElement.classList.remove('text-secondary');
+            balanceElement.classList.add('text-danger');
+        } else {
+            balanceElement.classList.remove('text-danger');
+            balanceElement.classList.add('text-secondary');
+        }
+
+    }
+
+    // Add event listener to the button to trigger calculation on click
+   addButton.addEventListener('click', calculateTotals);
+
+    // You can remove the initial calculation if you only want the calculation to happen after the button is clicked
+    //calculateTotals();
+});
+</script>
+
+
 
 </body>
 

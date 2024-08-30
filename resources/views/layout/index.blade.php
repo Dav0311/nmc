@@ -74,11 +74,9 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
-              <h3>Why Choose NMC?</h3>
+              <h3>Why Choose Nalugala Medical Centre ?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
+              Choosing Nalugala medical centre (NMC) ensures that patients receive high-quality, compassionate, and accessible healthcare tailored to meet their specific needs, making it the preferred choice over other options.              </p>
               <div class="text-center">
                 <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
@@ -126,25 +124,39 @@
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            <h3>Our mission is to deliver comprehensive, high-quality medical services with a personal touch.</h3>
+            <p>Our mission is to deliver comprehensive, high-quality medical services with a personal touch. Conveniently located within nal, our clinic is designed to offer a wide range of healthcare services all under one roof.</p>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 class="title"><a href="">Primary Care :</a></h4>
+              <p class="description">
+              Routine check-ups, preventive care, and treatment for common illnesses.
+              </p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 class="title"><a href="">Chronic Disease Management :</a></h4>
+              <p class="description">
+              Ongoing support for conditions such as diabetes, hypertension, and asthma.
+              </p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <h4 class="title"><a href="">Specialty Services :</a></h4>
+              <p class="description">
+              Access to a variety of specialists to address more specific health concerns.
+              </p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-atom"></i></div>
+              <h4 class="title"><a href="">Wellness Programs :</a></h4>
+              <p class="description">
+              Health education, screenings, and community outreach initiatives to promote overall well-being.
+              </p>
             </div>
 
           </div>
@@ -202,55 +214,58 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+          At Nalugala Medical Centre, we offer a wide range of healthcare services designed to meet the diverse needs of our community:
+          </p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-heartbeat"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="">Primary Care </a></h4>
+              <p>Routine check-ups, preventive care, and treatment for common illnesses to keep you and your family healthy.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-pills"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Drug Administration</a></h4>
+              <p>We provide comprehensive drug administration services to ensure you receive the medications you need safely and effectively. Our trained medical staff is skilled in administering a variety of treatments, including injections, IV infusions, and vaccinations. </p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-hospital-user"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">
+              Patient Referral Services</a></h4>
+              <p>We understand that sometimes specialized care is necessary. That's why we offer patient referral services to connect you with trusted specialists and healthcare facilities when needed.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-dna"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">Lab Services</a></h4>
+              <p>We offer state-of-the-art lab services to provide accurate and timely diagnostic testing</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-wheelchair"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4><a href="">Recovery and At-Home Care</a></h4>
+              <p>At Nalugala Medical Centre, we prioritize your recovery and well-being beyond your visit. After receiving medical treatment or undergoing a procedure, our team provides comprehensive guidance and support for at-home care.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-notes-medical"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="">Medical Information Management</a></h4>
+              <p>We provide robust medical information management services to ensure the secure and efficient handling of your health records</p>
             </div>
           </div>
 
@@ -265,10 +280,11 @@
 
         <div class="section-title">
           <h2>Make an Appointment</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>At Nalugala Medical Centre, scheduling your medical appointments is simple and convenient. Whether you need to see a primary care physician, specialist, or require diagnostic testing, we offer multiple ways to book your appointment:</p>
         </div>
 
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+        <form action="{{ url('/appointment') }}" method="post" role="form" class="php-email-form">
+          @csrf
           <div class="row">
             <div class="col-md-4 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -285,38 +301,31 @@
           </div>
           <div class="row">
             <div class="col-md-4 form-group mt-3">
-              <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="Date" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
+            
             <div class="col-md-4 form-group mt-3">
               <select name="department" id="department" class="form-select">
                 <option value="">Select Department</option>
-                <option value="Department 1">Department 1</option>
-                <option value="Department 2">Department 2</option>
-                <option value="Department 3">Department 3</option>
+                <option value="Department 1">Cardiology</option>
+                <option value="Department 2">Hepatology</option>
+                <option value="Department 3">Pediatrics</option>
+                <option value="Department 3">Laboratory</option>
               </select>
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3">
               <select name="doctor" id="doctor" class="form-select">
                 <option value="">Select Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
+               @foreach ($doctors as $doctor)
+                <option value="{{$doctor->id}}">{{ $doctor->firstname}}  {{ $doctor->lastname }}</option>
+                @endforeach
               </select>
               <div class="validate"></div>
             </div>
           </div>
-
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-            <div class="validate"></div>
-          </div>
-          <div class="mb-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-          </div>
+         
           <div class="text-center"><button type="submit">Make an Appointment</button></div>
         </form>
 
@@ -329,7 +338,7 @@
 
         <div class="section-title">
           <h2>Departments</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Welcome to Nalugala Medical Centre, where we offer a variety of specialized departments to cater to your healthcare needs:</p>
         </div>
 
         <div class="row gy-4">
@@ -338,18 +347,14 @@
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Cardiology</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Neurology</a>
-              </li>
+             
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Hepatology</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Pediatrics</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Eye Care</a>
-              </li>
+            
             </ul>
           </div>
           <div class="col-lg-9">
@@ -358,8 +363,8 @@
                 <div class="row gy-4">
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>Cardiology</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <p class="fst-italic">Welcome to the Cardiology Department at Nalugala Medical Centre, where we specialize in the diagnosis, treatment, and prevention of heart and cardiovascular diseases. Our team of experienced cardiologists and cardiovascular specialists is dedicated to providing compassionate and personalized care to our patients.</p>
+                    <p>We offer a comprehensive range of services, including diagnostic tests such as echocardiograms and stress tests, as well as advanced treatments for conditions like hypertension, coronary artery disease, and heart rhythm disorders. Whether you need routine heart care or specialized cardiac interventions, trust our Cardiology Department for expert care focused on your heart health and well-being.</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
@@ -381,9 +386,11 @@
               <div class="tab-pane" id="tab-3">
                 <div class="row gy-4">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    <h3>Hepatology at Nalugala Medical Centre</h3>
+                    <p class="fst-italic">Welcome to the Hepatology Department at Nalugala Medical Centre, dedicated to the diagnosis and management of liver diseases.</p>
+                    <p>
+                    Our hepatologists and liver specialists offer comprehensive care for conditions such as viral hepatitis, fatty liver disease, cirrhosis, and liver cancer. We provide advanced diagnostic services including liver function tests, imaging studies, and liver biopsies, ensuring accurate diagnosis and personalized treatment plans. Whether you need routine liver screenings or specialized care for complex liver conditions, trust our Hepatology Department to deliver expert care focused on improving your liver health and overall well-being.
+                    </p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
@@ -393,9 +400,11 @@
               <div class="tab-pane" id="tab-4">
                 <div class="row gy-4">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                    <h3>
+                    Pediatrics at Nalugala Medical Centre
+                  </h3>
+                    <p class="fst-italic">Welcome to the Pediatrics Department at Nalugala Medical Centre, where we specialize in providing compassionate and expert care for children of all ages. Our team of dedicated pediatricians and pediatric specialists is committed to promoting the health and well-being of your child.</p>
+                    <p>We offer a wide range of services, including well-child visits, vaccinations, developmental screenings, and treatment for childhood illnesses and conditions. Whether it's routine care or specialized pediatric services, trust our Pediatrics Department to provide comprehensive and personalized care tailored to meet the unique needs of your child.</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
@@ -483,6 +492,8 @@
             </div>
           </div>
 
+          
+
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt=""></div>
@@ -517,46 +528,50 @@
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What are allergies? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  An allergic reaction is a reaction to a substance that is typically harmless to most other people. Allergies happen when a person’s immune system overreacts to a substance that the person has breathed in, touched, or eaten. Allergens—the antigens that bring on an allergic reaction—may be foods, medications, plants or animals, chemicals, dust, or molds. Some common allergic reactions are hay fever, allergic conjunctivitis (an eye reaction), asthma, pet-dander allergies, and skin reactions, such as hives. A common cause for allergies are dust mites, a large part of household dust. If they are breathed in by an allergic person, the body parts of the dead mites can trigger asthma, a lung condition that causes a person to have difficulty breathing. Cat and dog dander, or skin flakes, can cause an allergic reaction, such as sneezing, wheezing, and runny eyes and nose. Common food allergy triggers are the proteins in cow’s milk, eggs, peanuts, wheat, soy, fish, shellfish, and tree nuts.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">How to lower blood pressure? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  High blood pressure, or hypertension, is generally diagnosed when blood pressure increases to unhealthy levels — this is usually when a person has a blood pressure reading that’s higher than 130/80. Your blood pressure measurement takes into account how much blood is passing through your blood vessels and the amount of resistance the blood meets while the heart is pumping.
+
+                  Hypertension typically develops over the course of several years, and as there aren’t very many symptoms, it can often go unnoticed. Although it’s a very common illness — more than one third of Australians over the age of 18 have been diagnosed with high blood pressure — if left untreated, the risks can include heart attack, stroke, kidney disease, eye disease, and even dementia in later life.
+
+                  Although this sounds pretty scary, the good news is that it’s easy to treat. In fact, most of the treatment for high blood pressure involves making simple, healthy lifestyle changes, so early detection of the illness is key.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed"> I’ve heard that keeping calories down is linked to longevity. Does that mean I should be fasting? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  Multiple studies have shown that long-term calorie restriction can reduce metabolic function and slow the cellular aging process — in rats! Human trials have been limited. A 2019 study in The Lancet showed that people who reduced their calorie intake by 12 percent had lower blood pressure and cholesterol, increased insulin sensitivity and lower inflammation. The problem? The study covered only 238 people over two years, and the oldest among them were 50. Plus, calorie-restriction diets can cause muscle loss, which in turn can result in rebound weight gain and other unhealthy outcomes. 
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed"> Wait — I heard doctors don’t worry so much about high cholesterol anymore. Is that true? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                  No. High cholesterol, particularly LDL, or “bad” cholesterol, is still a marker for a higher risk for heart disease. And preliminary results from a 2022 study of more than 750 older adults found a link between high cholesterol levels and elevated dementia risk. So, stick to those statins, if that’s what your physician suggests.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">I know what I’m supposed to eat, but how can I keep eating what I enjoy? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                In most cases, you can eat anything you want, Walsh observes. You just can’t eat as much as you want. And you have to include the fruits, vegetables, nuts, legumes, whole grains and fish you need to lower inflammation and keep your calories in check.
                 </p>
               </div>
             </li>
@@ -662,7 +677,7 @@
 
         <div class="section-title">
           <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>This photo gallery has images of our facility and for the services we provide to our esteemed customers,  capturing the state of the art machines and how we handle our patients with the upsalute care.</p>
         </div>
       </div>
 
@@ -744,7 +759,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>For any Information please don't hesitate to contact us or reach out to our phySical location  in Nalugala, Entebbe.</p>
         </div>
       </div>
 
@@ -756,12 +771,12 @@
       <div class="container">
         <div class="row mt-5">
 
-          <div class="col-lg-4">
-            <div class="info">
+          <div class="col-lg-12">
+            <div class="info ">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Nalugala, Entebbe</p>
               </div>
 
               <div class="email">
@@ -780,32 +795,7 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
+         
 
         </div>
 
@@ -821,7 +811,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-4 col-md-6 footer-contact">
             <h3>Medilab</h3>
             <p>
               A108 Adam Street <br>
@@ -832,7 +822,7 @@
             </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -843,7 +833,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -852,14 +842,6 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
           </div>
         </div>
       </div>

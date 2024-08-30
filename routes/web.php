@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Route;
 use Spatie\Honeypot\ProtectAgainstSpam;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\FormbuilderController;
+use App\Http\Controllers\LabController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -25,14 +26,19 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+//Route::get('/index', [TemplateController::class, 'index'])->name('home');
 Route::get('/home', [TemplateController::class, 'index'])->name('home');
 Route::get('/honeypot', [TemplateController::class, 'honeypot'])->name('honeypot');
-Route::post('/honeypost', [TemplateController::class, 'honeypotBlock'])->name('honeypost')->middleware(ProtectAgainstSpam::class);;
+Route::post('/honeypost', [TemplateController::class, 'honeypotBlock'])->name('honeypost')->middleware(ProtectAgainstSpam::class);
+Route::post('/appointment', [TemplateController::class, 'sendAppointment'])->name('create_appointment');
 
 //
 Route::get('/doctors', [DoctorController::class, 'index'])->name('doctors');
+Route::get('/doctors/create', [DoctorController::class, 'create'])->name('doctors_create');
+Route::post('/doctors/create/store', [DoctorController::class, 'store'])->name('doctors_store');
 
 Route::get('/sales/home', [SalesController::class, 'index'])->name('sales');
+Route::get('/sales/create_sale', [SalesController::class, 'create'])->name('create_sale');
 
 Route::get('/categories/home', [CategoriesController::class, 'index'])->name('categories');
 //Route::resource('/category', CategoriesController::class);
@@ -64,5 +70,8 @@ Route::get('formBuilder/form/response/{form_id}', [FormbuilderController::class,
 Route::get('formBuilder/form/response/detail/{id}', [FormbuilderController::class, 'viewDetailResponse'])->name('view_response_detail');
 Route::post('formBuilder/form/store_response/{form_id}', [FormbuilderController::class, 'storeResponse'])->name('store_response');
 Route::get('formBuilder/form/delete_response/{form_id}', [FormbuilderController::class, 'destroyResponse'])->name('destroy_response');
+
+Route::get('/lab/index', [LabController::class, 'index'])->name('lab_index');
+
 
 require __DIR__.'/auth.php';

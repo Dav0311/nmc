@@ -6,7 +6,9 @@
        <div class="card-header">
         <div class="text">
         <h1>Point of Sales</h1>
-      
+        <a href="{{ url('/sales/create_sale') }}">
+            <h3 class=" float-end">Add</h3>
+        </a>
         </div>
             <div class="card-body">
             @if (session('success'))
@@ -125,10 +127,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="card">
-                           uiccnc
                         </div>
                     </section>
                 </div>

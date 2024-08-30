@@ -4,6 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Mail;
+use App\Models\doctor;
+use App\Mail\TestMail;
+use App\Mail\AppointmentMail;
+use Illuminate\Support\Facades\DB;
+
+
 
 
 class TemplateController extends Controller
@@ -11,7 +18,14 @@ class TemplateController extends Controller
     //
     public function index()
     {
-        return view ('layout.index');
+        // $doctors = doctor::all();
+        // dd($doctors);
+        // return view ('layout.index', compact('doctors'));
+
+        $doctors = DB::table('doctors')->get();
+
+        return view ('layout.index',['doctors'=> $doctors]);
+
     }
 
     public function honeypot()
@@ -50,5 +64,30 @@ class TemplateController extends Controller
     // For example, you might want to authenticate the user or perform other actions
     // Here, we're just returning a success response
     return response('Success', 200);
+    }
+
+    public function sendAppointment(Request $request)
+    {
+        
+        $validated = $request->validate([
+            'name' => 'required|max:255',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'date' => 'required|date',
+            'department' => 'required',         
+            'doctor' => 'required'
+        ]);
+
+        if ($validated)
+        {
+            Mail::to('dev.david1300@gmail.com')->send(new AppointmentMail($validated));
+
+            $message = "Successfully created an appointment.";
+            return redirect()->back()->with('success', $message);
+        } else {
+            $message = "Failed to create an appointment.";
+            return redirect()->back()->with('error', $message);
+        }
+        
     }
 }
