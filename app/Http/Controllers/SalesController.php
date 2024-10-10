@@ -10,12 +10,12 @@ class SalesController extends Controller
     //
     public function index()
     {
-        return view ('sales.index');
+        return view ('layout.backend.page-list-sale');
     }
 
     public function create()
     {
-        return view ('sales.create');
+        return view ('layout.backend.page-add-sale');
     }
 
     public function store(Request $request)

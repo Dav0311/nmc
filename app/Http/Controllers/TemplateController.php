@@ -24,8 +24,13 @@ class TemplateController extends Controller
 
         $doctors = DB::table('doctors')->get();
 
-        return view ('layout.index',['doctors'=> $doctors]);
+        return view ('layout.index2',['doctors'=> $doctors]);
 
+    }
+
+    public function PosDashboard()
+    {
+        return view ('layout.index');
     }
 
     public function honeypot()
@@ -90,4 +95,6 @@ class TemplateController extends Controller
         }
         
     }
+
+   
 }

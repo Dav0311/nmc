@@ -10,12 +10,12 @@ class StockController extends Controller
     //
     public function index ()
     {
-        return view ('products.index');
+        return view ('layout.backend.page-list-product');
     }
 
     public function create()
     {
-        return view ('prodcuts.create');
+        return view ('layout.backend.page-add-product');
     }
 
     public function store(Request $request)

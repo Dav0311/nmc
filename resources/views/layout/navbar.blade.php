@@ -17,7 +17,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="{{ url('/sales/home') }}" class="appointment-btn scrollto"><span class="d-none d-md-inline">Point of Sales</span></a>
+      <a href="{{ url('/point_of_sale') }}" class="appointment-btn scrollto"><span class="d-none d-md-inline">Point of Sales</span></a>
     </div>
   </header><!-- End Header -->
 

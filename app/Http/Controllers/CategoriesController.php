@@ -13,13 +13,13 @@ class CategoriesController extends Controller
     {
 
         $categories = categories :: all();
-        return view ('category.index', compact('categories'));
+        return view ('layout.backend.page-list-category', compact('categories'));
 
     }
 
     public function create()
     {
-        return view ('category.create');
+        return view ('layout.backend.page-add-category');
     }
 
     public function store(Request $request)

@@ -17,7 +17,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', function () {
-    return view('layout.index');
+    return view('layout.index2');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
@@ -28,6 +28,7 @@ Route::middleware('auth')->group(function () {
 
 //Route::get('/index', [TemplateController::class, 'index'])->name('home');
 Route::get('/home', [TemplateController::class, 'index'])->name('home');
+Route::get('/point_of_sale', [TemplateController::class, 'PosDashboard'])->name('pos_dashboard');
 Route::get('/honeypot', [TemplateController::class, 'honeypot'])->name('honeypot');
 Route::post('/honeypost', [TemplateController::class, 'honeypotBlock'])->name('honeypost')->middleware(ProtectAgainstSpam::class);
 Route::post('/appointment', [TemplateController::class, 'sendAppointment'])->name('create_appointment');
@@ -49,6 +50,7 @@ Route::put('/categories/update', [CategoriesController::class, 'update'])->name(
 Route::delete('/categories/delete/{id}', [CategoriesController::class, 'delete'])->name('delete_categories');
 
 Route::get('/products', [StockController::class, 'index'])->name('products');
+Route::get('/add/products', [StockController::class, 'create'])->name('add_products');
 Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
 Route::get('/cart/add/{id}', [CartController::class, 'add'])->name('cart.add');
 Route::post('/cart/update/{id}', [CartController::class, 'update'])->name('cart.update');
